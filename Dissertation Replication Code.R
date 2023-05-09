@@ -1,5 +1,5 @@
 ### Dissertation Replication Code
-setwd("~/...")
+setwd("~/Downloads")
 
 ### 1 Set-up
 set.seed(1)
@@ -57,14 +57,14 @@ regression_diagnostics <- function(model) {
 ## 2.1.1 load and merge data sets
 
 ## load data: Eder and Forting-Rittberger (2017)
-data <- read_sav("~/.../ZA5990_v1-0-1.sav", encoding = "latin1")
+data <- read_sav("ZA5990_v1-0-1.sav", encoding = "latin1")
 # number of municipalities and elections
 municipalities <- subset(data, level == 4 & election_dummy == 1)
 length(municipalities$entity)
 length(unique(municipalities$entity))
 
 ## load data: hand collected Hesse data set
-hesse_raw <- read.csv("~/.../Hesse_Council_Data.csv", header = TRUE)
+hesse_raw <- read.csv("Hesse_Council_Data.csv", header = TRUE)
 # create new variables
 hesse_raw$rat_percentW <- hesse_raw$rat_women / hesse_raw$rat
 hesse_raw$rat_LEFT <- (hesse_raw$rat_spd_seats + hesse_raw$rat_pds_seats + hesse_raw$rat_green_seats) / hesse_raw$rat 
@@ -154,7 +154,7 @@ elections$voting_system <- as.factor(ifelse(elections$voting_system == 2, 1, 0))
 ## 2.1.3 Add survey data
   
 ## load data: ALLBUS survey (GESIS, 2021) 
-allbus_original <- read_sav("~/.../ZA5276_v1-1-0.sav", encoding = "latin1")
+allbus_original <- read_sav("ZA5276_v1-1-0.sav", encoding = "latin1")
 allbus <- subset(allbus_original, year == 2004 | year == 2008)
 
 ## 2.1.3.1 Prepare data
@@ -301,7 +301,7 @@ municipal$period <- cut(municipal$year,
 hesse <- subset(municipal, rgs_land == 6)
 
 ## 4. load data: Baskaran and Hessami (2018)
-meeting_topics <- read_dta("~/.../meeting_topics_data.dta")
+meeting_topics <- read_dta("meeting_topics_data.dta")
 
 ## 2.1.2 Prepare variables
 
@@ -360,7 +360,7 @@ dev.off()
 
 # 3.2 Figure 2
 # load shapefile of Germany
-Output.Areas <- readOGR("~/.../B-2022-AI003-3--AI0306--2023-04-28",  "B-2022-AI003-3--AI0306--2023-04-28")
+Output.Areas <- readOGR("B-2022-AI003-3--AI0306--2023-04-28",  "B-2022-AI003-3--AI0306--2023-04-28")
 
 # compute average hierarchy score per federal state
 hierarchy <- allbus_EFA %>%
