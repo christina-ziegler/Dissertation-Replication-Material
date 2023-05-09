@@ -1,13 +1,7 @@
 # Dissertation-Replication-Material
 This github contains all replication material for the dissertation "Backlash and the Trajectory of Women's Political Representation: Local Level Evidence from Germany" (2023): 
 
-  "Does backlash against female politicians inhibit growth in the development of women’s nu-merical representation over time? 
-  Drawing on hand-collected data on local council elections in Germany between 2001 and 2016, this dissertation uses fixed 
-  effects regression models to estimate how gender hierarchical views and women’s participation in council meetings, used as 
-  proxies for the strength and prevalence of backlash, impact the development of female representation in over time. I find 
-  no evidence of a negative effect of backlash on the trajec-tory of women’s representation. While this constitutes a tentative 
-  positive sign, future re-search should investigate whether this finding hold across all levels of government as well as in 
-  more gender traditionalist contexts."
+  "Does backlash against female politicians inhibit growth in the development of women’s nu-merical representation over time? Drawing on hand-collected data on local council elections in Germany between 2001 and 2016, this dissertation uses fixed effects regression models to estimate how backlash, measured through the proxies of gender hierarchy strength and fe-male councillors’ display of high-status behaviour, impacts the development of female repre-sentation over time. I find no evidence of a negative effect of backlash on the trajectory of women’s representation. While this constitutes a tentative positive sign, future research should investigate whether this finding hold across all levels of government as well as across more gender traditionalist contexts."
   
 Instructions
  
