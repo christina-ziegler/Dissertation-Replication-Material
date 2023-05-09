@@ -11,3 +11,4 @@ This github contains all replication material for the dissertation "Backlash and
   
 Instructions
  
+The code in this repository is very straight forward. Simply download all files in the repository. The working directory in the code is set to "Downloads" so that the code can be run immediately. 
