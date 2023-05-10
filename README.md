@@ -6,3 +6,5 @@ This github contains all replication material for the dissertation "Backlash and
 Instructions
  
 The code in this repository is very straight forward. Simply download all files in the repository, adjust the working directory in the code to the place where you saved the downloaded files and run the code. The analysis as well as all figures and tables can be produced with the same R Script file. 
+
+As discussed in Appendix A, this github also contains a file ("Replication File - Data Sources") which lists all electoral data sources for the hand-collected dataset "Hesse_Council_Data.csv". 
